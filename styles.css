@@ -1,0 +1,82 @@
+body{
+  background-image: linear-gradient( 115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7) ), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+color: white;
+font-size:18px;
+}
+h1,p{
+  text-align:center;
+  margin-bottom:-10px;
+}
+h1{
+  font-size:32px;
+}
+p{
+  font-style:italic;
+}
+form{
+  width:100%;
+  max-width: 550px;
+  margin:auto;
+  margin-top:35px;
+  background-color:rgba(27, 27, 50, 0.8);
+  border-radius:7px;
+  padding:25px;
+}
+.name,.age,.email,.dropdown,.list{
+  display: block;
+  margin-bottom:20px;
+}
+input[type="text"],input[type="email"],input[type="number"],.dropdown{
+  width:100%;
+  height:2rem;
+  padding:8px;
+  border-radius:5px;
+  border:0;
+}
+
+.dropdown{ 
+  color:gray;
+}
+option{
+  color:black;
+}
+.Lradio{
+  display:block;
+  /* justify-content: center; */
+}
+input[type="radio"]{
+  min-height: 1rem;
+  min-width: 1rem;
+}
+.radio{
+  margin-top:-15px;
+  margin-bottom:15px;
+}
+
+.checkbox{
+  min-height: 1rem;
+  min-width: 1rem;
+}
+.Lcheckbox{
+  display:block;
+}
+.Larea{
+  display:block;
+  margin-top:10px;
+}
+.area{
+  width:100%;
+  height:90px;
+  border:0;
+  border-radius:2px;
+}
+input[type="submit"]{
+  display:block;
+  margin:auto;
+  margin-top:20px;
+  width:100%;
+  height:40px;
+  border: 0;
+  border-radius:2px;
+  background-color:#37af65;
+}
